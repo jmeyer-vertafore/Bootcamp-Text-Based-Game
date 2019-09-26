@@ -6,36 +6,9 @@ namespace TextBasedGame.Room.Constants
     {
         public static List<string> YourBedroom = new List<string>()
         {
-            "bed",
-            "bedroom",
-            "room"
-        };
-
-        public static List<string> YourLivingRoom = new List<string>()
-        {
-            "living",
-            "livingroom",
-            "room"
-        };
-
-        public static List<string> YourKitchen = new List<string>()
-        {
-            "kitchen",
-            "kitch",
-            "cook",
-            "food",
-            "fridge"
-        };
-
-        public static List<string> YourFrontEntryway = new List<string>()
-        {
-            "front",
-            "entrance",
-            "entryway",
-            "entry",
-            "foyer",
-            "frontdoor",
-            "front"
+            // Add keywords here that will be used to match on player input
+            // (Think in terms of the player typing "enter bedroom")
+            // Hint: refer to ItemKeywords.cs for an example
         };
     }
 }
