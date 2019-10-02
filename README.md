@@ -1,5 +1,5 @@
 # Bootcamp-Text-Based-Game
-If you'd like a working version of the game, please unzip the Text-Based-Game.exe for behavioral example.
+If you'd like a working version of the game, please unzip the TextBasedGame - For Behavior Example.zip for a behavioral example.
 
 Your tasks:
 
