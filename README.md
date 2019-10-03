@@ -8,19 +8,19 @@ If you'd like a working version of the game, please unzip the TextBasedGame - Fo
 	
 2. RoomHandler.cs
 	- Implement the EnterRoom method to:
-		i. Print description of room
-		ii. Ask for and handle player input
-		iii. Repeat until keyword to enter a new room is received (return the new room)
+		- Print description of room
+		- Ask for and handle player input
+		- Repeat until keyword to enter a new room is received (return the new room)
 	- Implement FindAnyMatchingRoomsByKeyWord to:
-		i. Split the user input into a list of words
-		ii. Iterate on the list and compare to the room exit keywords
-		iii. If match return the room corresponding to the exit keyword match
-		iv. Otherwise return null if no match
+		- Split the user input into a list of words
+		- Iterate on the list and compare to the room exit keywords
+		- If match return the room corresponding to the exit keyword match
+		- Otherwise return null if no match
 	- Implement GetAllRoomItemKeywords to:
-		i. Check if the current room has InventoryItems
-		ii. If so, iterate over these items and add them to the keywords list
-		iii. Check if the current room has WeaponItems
-		iv. If so, iterate over these items and add them to the keywords list
+		- Check if the current room has InventoryItems
+		- If so, iterate over these items and add them to the keywords list
+		- Check if the current room has WeaponItems
+		- If so, iterate over these items and add them to the keywords list
 		
 3. GameRooms.cs
 	- Add at least one new room object with unique properties
