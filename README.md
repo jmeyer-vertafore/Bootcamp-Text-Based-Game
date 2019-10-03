@@ -11,11 +11,13 @@ If you'd like a working version of the game, please unzip the TextBasedGame - Fo
 		- Print description of room
 		- Ask for and handle player input
 		- Repeat until keyword to enter a new room is received (return the new room)
+		
 	- Implement FindAnyMatchingRoomsByKeyWord to:
 		- Split the user input into a list of words
 		- Iterate on the list and compare to the room exit keywords
 		- If match return the room corresponding to the exit keyword match
 		- Otherwise return null if no match
+		
 	- Implement GetAllRoomItemKeywords to:
 		- Check if the current room has InventoryItems
 		- If so, iterate over these items and add them to the keywords list
